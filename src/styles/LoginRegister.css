@@ -1,0 +1,95 @@
+.body{
+    display: flex;
+    height: 100vh;
+    font-size: 25px;
+    font-family: "Raleway";
+}
+.background{
+    width: 50%;
+}
+.Menu{
+    display: flex;
+    margin-top: 100px;
+    border-bottom: solid;
+    border-width: 3px;
+    border-color: #c4c4c4;
+    margin-right: 100px;
+    padding-bottom: 10px;
+
+}
+.Menu div{
+    margin-right: 80px;
+    margin-left: 10px;
+}
+.Menu a{
+    text-decoration: none;
+    padding-bottom: 10px;
+    color: black;
+}
+
+
+#trapezoid{
+    padding-bottom: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(#F93238, #B54C8F);
+    clip-path: polygon(0% 0%, 100% 0%, 75% 100%, 0% 100%)
+}
+#logo{
+    width: 60%;
+}
+
+
+#content form{
+    display: block;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+#content input{
+    height: 40px;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid #ED3749;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+#content input:focus{
+    border: 2px solid #ED3749;
+    outline: none;
+    background-color: #f7f7f7;
+}
+
+#content input::placeholder  {
+    font-size: 20px;
+    font-family: "Raleway";
+}
+
+#content #submit{
+    background-color: #F6343D;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 30%;
+}
+
+.error-message{
+    font-size:small;
+    color: red;
+}
+
+.success-message{
+    font-size: small;
+    color: green;
+}
+
+#content input [type="sumbit"]{
+    cursor: move;
+}
+
+.Menu a.active{
+    border-bottom: 2px solid black;
+}
+

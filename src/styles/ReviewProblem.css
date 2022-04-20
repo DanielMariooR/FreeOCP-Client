@@ -1,0 +1,17 @@
+.y-btn {
+    background-color: #F93238;
+    border-color: #F93238;
+}
+
+.y-btn:hover, .n-btn:hover {
+    opacity: 0.75;
+}
+
+.n-btn {
+    background-color: #B44B8E;
+    border-color: #B44B8E;
+}
+
+.btn-container {
+    width: fit-content;
+}

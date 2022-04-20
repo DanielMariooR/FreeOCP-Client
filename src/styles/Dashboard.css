@@ -1,0 +1,23 @@
+.DashboardMenu{
+    display: flex;
+    margin-top: 36px;
+    margin-left: 12%!important;
+}
+
+.dashboardButton{
+    border-radius: 30px;
+    background-color: #F6343D;
+    color: white;
+    border-style: none;
+    height: 54px;
+    width: 240px;
+    font-family: "Raleway";
+    font-weight: bold;
+    font-size: 24px;
+    margin: 32px;
+}
+
+.dashboard-pagination{
+    margin: 30px;
+    margin-left: 45%;
+}

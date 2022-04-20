@@ -1,0 +1,13 @@
+.navbar {
+    background-image: linear-gradient(to left, #B44B8E, #C94474, #DA3D5F, #F93238);
+}
+
+.nav-item {
+    font-weight: 500;
+    line-height: 50px;
+}
+
+.admin {
+    font-size: 24px;
+    color: white;
+}

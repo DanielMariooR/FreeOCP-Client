@@ -1,0 +1,14 @@
+.myscore {
+    border-left: 1px solid #C8C9CA;
+}
+
+.f-btn {
+    background-color: #F93238;
+    border-color: #F93238;
+}
+
+.f-btn:hover {
+    background-color: #F93238;
+    border-color: #F93238;
+    filter: brightness(80%);
+}

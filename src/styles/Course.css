@@ -1,0 +1,29 @@
+.course-material h3 {
+    display: none;
+}
+
+.breadcrumbs .title {
+    color: #F93238;
+    text-decoration: none;
+}
+
+.breadcrumbs .title:hover {
+    filter: brightness(80%);
+}
+
+.breadcrumbs .item {
+    font-size: large;
+}
+
+.material-nav {
+    color: #F93238;
+}
+
+.material-nav .back:hover, .material-nav .next:hover {
+    cursor: pointer;
+    filter: brightness(80%);
+}
+
+.material-nav span {
+    font-weight: bold;
+}

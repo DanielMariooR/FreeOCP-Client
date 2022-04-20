@@ -1,0 +1,25 @@
+.card {
+    width: 290px;
+    height: 400px;
+}
+
+.card-img-top {
+    height: 160px;
+    object-fit: cover;
+}
+
+.card-creator {
+    width: 115px;
+    height: 115px;
+    top: 95px;
+    left: 15px;
+    object-fit: contain;
+}
+
+.card-body {
+    margin-top: 45px;
+}
+
+.card-title {
+    color: #DA3D5F;
+}

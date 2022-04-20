@@ -1,0 +1,44 @@
+.question-form .form-control {
+    border-color: #FA3339;
+}
+
+.question-form label {
+    font-weight: bold;
+}
+
+.custom-dropdown, .custom-dropdown:focus {
+    background-image: url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 16 16%27%3e%3cpath fill=%27none%27 stroke=%27red%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27 stroke-width=%272%27 d=%27M2 5l6 6 6-6%27/%3e%3c/svg%3e");
+    border-color: #FA3339;
+}
+
+.form-check-input:checked {
+    background-color: #FA3339;
+    opacity: 1 !important;
+}
+
+.q-btn {
+    float: right;
+    background-color: #F93238;
+    border-color: #F93238;
+}
+
+.q-btn:hover {
+    background-color: #F93238;
+    border-color: #F93238;
+    filter: brightness(90%);
+}
+
+.add-input {
+    cursor: pointer;
+    color: #F93238;
+}
+
+.remove-input {
+    cursor: pointer;
+    color: #B44B8E;
+}
+
+.answer-error {
+    font-weight: bold;
+    color: #B44B8E;
+}

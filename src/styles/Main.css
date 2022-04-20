@@ -1,0 +1,56 @@
+.red-title {
+    color: #F93238;
+    font-weight: bold;
+}
+
+.red-btn {
+    background-color: #F93238;
+    border-color: #F93238;
+}
+
+.red-btn:hover {
+    background-color: #F93238;
+    border-color: #F93238;
+    filter: brightness(90%);
+}
+
+.bg-abu {
+    background-color: #EEEEEE;
+}
+
+.main-desc {
+    font-size: larger;
+    font-weight: 500;
+}
+
+.main-title {
+    font-weight: bold;
+}
+
+@media (min-width: 0px) {
+    .main-title {
+        font-size: 5vw;
+    }
+    
+    .main-subtitle {
+        font-size: 3vw;
+    }
+
+    .red-btn {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 768px) {
+    .main-title {
+        font-size: 3vw;
+    }
+    
+    .main-subtitle {
+        font-size: 1.75vw;
+    }
+
+    .red-btn {
+        font-size: 1vw;
+    }
+}
